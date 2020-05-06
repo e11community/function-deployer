@@ -15,7 +15,6 @@
     "glob": "^7.1.6"
   },
   "devDependencies": {
-    "@firebase/testing": "^0.19.2",
     "mocha": "^7.1.2"
   }
 }
