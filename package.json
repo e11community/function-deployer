@@ -1,21 +1,18 @@
 {
-  "name": "@engineering11/function-deployer",
+  "name": "@e11community/function-deployer",
   "version": "1.0.0",
-  "description": "A deployer for Firebase Functions that shards and deploys in groups.",
+  "description": "A grouping function deployer for Firebase Functions.",
   "main": "deployall.js",
-  "repository": "git://github.com/engineering11/public-package-function-deployer",
+  "repository": "git://github.com/e11community/function-deployer",
   "scripts": {
-    "test": "firebase emulators:exec --only functions 'mocha --recursive \"test/**/*.spec.js\"'"
+    "test": "'mocha --recursive \"test/**/*.spec.js\"'"
   },
-  "author": "Engineering11",
+  "author": "Engineering11 LLC",
   "license": "MIT",
   "dependencies": {
     "camelcase": "^6.0.0",
     "command-line-args": "^5.1.1",
     "glob": "^7.1.6"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@firebase/testing": "^0.19.2",
