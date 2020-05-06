@@ -13,7 +13,7 @@ Engineering11 built this module to accommodate deploying a large number of funct
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install function-deloyer.
 
 ```bash
-npm install @engineering11/function-deployer --save-dev
+npm install @e11community/function-deployer --save-dev
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ From package.json
 ```json
 "scripts": {
     ...
-    "deployall": "node ./node_modules/@engineering11/function-deployer/deployall.js",
+    "deployall": "node ./node_modules/@e11community/function-deployer/deployall.js",
 },
 ```
 Then from the functions directory in your Firebase project
@@ -31,7 +31,7 @@ npm run deployall
 
 Or from the command line in the functions directory of your Firebase project
 ```bash
-node ./node_modules/@engineering11/function-deployer/deployall.js
+node ./node_modules/@e11community/function-deployer/deployall.js
 ```
 Optional command line parameters
 - shardSize -- specify the max number of functions to be deployed in a group, default=15
