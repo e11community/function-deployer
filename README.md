@@ -1,6 +1,6 @@
 # Engineering11 Function Deployer
 
-@enginering11/function-deployer is a library to automatically deploy Firebase Functions in groups.
+@e11community/function-deployer is a library to automatically deploy Firebase Functions in groups.
 
 Engineering11 built this module to accommodate deploying a large number of functions (100+) in a CI/CD environment based on the currently recommended approach of grouping functions. 
 
