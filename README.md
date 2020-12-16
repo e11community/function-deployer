@@ -1,8 +1,8 @@
-# Engineering11 Function Deployer
+# Engineering11 Firebase Function Deployer
 
 @e11community/function-deployer is a library to automatically deploy Firebase Functions in groups.
 
-Engineering11 built this module to accommodate deploying a large number of functions (100+) in a CI/CD environment based on the recommended approach of grouping functions. This does not speed up deployment but trys to provide a reliable approach given the limitations of deploying Firebase Functions.
+Engineering11 built this module to accommodate deploying a large number of functions (100+) based on the recommended approach of grouping functions. This does not speed up deployment but trys to provide a reliable approach given the limitations of deploying Firebase Functions.
 
 This module will automatically group functions into a shard of 15 (by default, override with command line arg) and deploy  shards until all functions are deployed. Using GCP Cloud Build it takes ~10 minutes for 100 functions.
 
